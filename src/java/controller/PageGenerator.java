@@ -46,7 +46,7 @@ public class PageGenerator extends HttpServlet {
                     + "}"
                     + "</style>");
             //out.println("<h1>Servlet PageGenerator at " + request.getContextPath() + "</h1>");
-            out.println("<h2>Welcome to this table!!</h2>");
+            out.println("<h2>Servlet Page Generator</h2>");
             out.println("<table>"
                     + "<tr>"
                     + "<th>Col Heading 1</th>"
