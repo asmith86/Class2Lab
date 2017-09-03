@@ -45,9 +45,8 @@ public class PageGenerator extends HttpServlet {
                     + "border:1px solid black;"
                     + "}"
                     + "</style>");
-            out.println("<h1>Servlet PageGenerator at " + request.getContextPath() + "</h1>");
-            out.println("<h2>Table Headline!!</h2>");
-            //out.println("<table><tr>Hello1<td>data1</td></tr><tr>hello2<td>data2</td></tr></table>");
+            //out.println("<h1>Servlet PageGenerator at " + request.getContextPath() + "</h1>");
+            out.println("<h2>Welcome to this table!!</h2>");
             out.println("<table>"
                     + "<tr>"
                     + "<th>Col Heading 1</th>"
@@ -69,7 +68,8 @@ public class PageGenerator extends HttpServlet {
                     + "<td>data3:2</td>"
                     + "<td>data3:3</td>"
                     + "</tr>"
-                    + "</table>");
+                    + "</table><br/>");
+            out.println("Click <a href=https://www.google.com>Here</a> to go to Google.");
             out.println("</body>");
             out.println("</html>");
         }
