@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <style>
+<!--        <style>
             table, th, tr, td {
                 border: 1px solid black;
             }
@@ -40,6 +40,42 @@
            <td>data3:3</td>
         </tr>
         </table><br/>
-       Click <a href="https://www.google.com">Here</a> to go to Google.
+       Click <a href="https://www.google.com">Here</a> to go to Google.-->
+
+       <% 
+            out.println("<style>"
+                    + "table, th, tr, td {"
+                    + "border:1px solid black;"
+                    + "}"
+                    + "</style>");
+            
+            out.println("<h2>JSP Page Generator</h2>");
+            out.println("<table>"
+                    + "<tr>"
+                    + "<th>Col Heading 1</th>"
+                    + "<th>Col Heading 2</th>"
+                    + "<th>Col Heading 3</th>"
+                    + "</tr>"
+                    + "<tr>"
+                    + "<td>data1:1</td>"
+                    + "<td>data1:2</td>"
+                    + "<td>data1:3</td>"
+                    + "</tr>"
+                    + "<tr>"
+                    + "<td>data2:1</td>"
+                    + "<td>data2:2</td>"
+                    + "<td>data2:3</td>"
+                    + "</tr>"
+                    + "<tr>"
+                    + "<td>data3:1</td>"
+                    + "<td>data3:2</td>"
+                    + "<td>data3:3</td>"
+                    + "</tr>"
+                    + "</table><br/>");
+            out.println("Click <a href=https://www.google.com>Here</a> to go to Google.");
+       
+       
+       %>
+
     </body>
 </html>
