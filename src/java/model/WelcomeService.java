@@ -21,7 +21,7 @@ public class WelcomeService {
         if (currentHour >= 5 && currentHour < 12) {
             timeOfDay = "Morning";
 
-        } else if (currentHour >= 12 && currentHour < 8) {
+        } else if (currentHour >= 12 && currentHour < 19) {
             timeOfDay = "Afternoon";
         } else {
             timeOfDay = "Evening";

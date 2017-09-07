@@ -9,9 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Class 2 Lab</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Welcome to Class 2 Lab!!</h1>
+        <p>Click <a href="welcome.jsp">Here</a>to get a special greeting</p>
     </body>
 </html>
