@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1>Welcome to Class 2 Lab!!</h1>
-        <p>Click <a href="welcome.jsp">Here</a>to get a special greeting</p>
+        <p>Click <a href="welcome.jsp">Here</a> to go the welcome page</p>
     </body>
 </html>

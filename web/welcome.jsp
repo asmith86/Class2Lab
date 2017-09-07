@@ -14,7 +14,7 @@
     <body>
         <h1>Welcome to the welcome page</h1>
         <form name="greetForm" id="greetForm" method="POST" action="greeter">
-            Enter your name: <input type="text" value="userName">
+            Enter your name: <input type="text" value="Your Name Here" name="userName">
             <br>
             <input type="submit" name="submit" value="submit">
         </form>
